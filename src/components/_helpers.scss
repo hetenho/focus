@@ -1,0 +1,20 @@
+.u-dg2 {
+  @include grid(1fr 1fr, $baseline);
+}
+
+.u-dg3 {
+  @include grid(1fr 1fr 1fr, $baseline);
+}
+
+.u-dg4 {
+  @include grid(1fr 1fr 1fr 1fr, $baseline/2);
+}
+
+.u-df {
+  display: flex;
+}
+
+.u-dfw {
+  display: flex;
+  flex-wrap: wrap;
+}
