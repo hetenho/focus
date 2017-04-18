@@ -1,10 +1,11 @@
 {
-  "name": "focus",
+  "name": "focus-css",
   "version": "1.0.0",
   "description": "SCSS utility lib",
   "main": "index.js",
   "scripts": {
-    "build": "node-sass src/lib.scss dist/focus.css --output-style compressed",
+    "build": "node-sass ./src/lib.scss index.css --output-style compressed",
+    "postinstall": "npm run build",
     "clean": "rm -rf dist"
   },
   "repository": {
