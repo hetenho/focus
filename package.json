@@ -7,6 +7,10 @@
     "build": "node-sass src/lib.scss dist/focus.css --output-style compressed",
     "clean": "rm -rf dist"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hetenho/focus.git"
+  },
   "keywords": [
     "sass",
     "scss",
@@ -14,6 +18,10 @@
   ],
   "author": "hetenho",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hetenho/focus/issues"
+  },
+  "homepage": "https://github.com/hetenho/focus#readme",
   "devDependencies": {
     "node-sass": "^4.5.2"
   }
