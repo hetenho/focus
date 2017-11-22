@@ -7,10 +7,15 @@
     "build": "node-sass src -o dist",
     "dev": "node-sass -w -r src -o dist"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hetenho/focus.git"
+  },
   "keywords": [
     "css component lib"
   ],
   "author": "hetenho",
+  "homepage": "https://github.com/hetenho/focus#readme",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^4.7.2"
