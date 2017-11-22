@@ -1,11 +1,12 @@
 {
-  "name": "snapi",
+  "name": "focus-css",
   "version": "1.0.0",
   "description": "ui lib",
   "main": "index.js",
   "scripts": {
     "build": "node-sass src -o dist",
-    "dev": "node-sass -w -r src -o dist"
+    "dev": "node-sass -w -r src -o dist",
+    "postinstall": "npm run build"
   },
   "repository": {
     "type": "git",
