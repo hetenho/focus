@@ -1,0 +1,24 @@
+// General
+$baseline: 10px;
+
+// Sizes
+$xsm: $baseline/2;
+$sm: $baseline*1.5;
+$md: $baseline*2;
+$lg: $baseline*4;
+$xlg: $baseline*5;
+$huge: $baseline*6;
+
+// Colors
+$gray: #aaa;
+$darkgray: #222;
+$lightgray: #ccc;
+$purple: rebeccapurple;
+$pink: hotpink;
+$color-primary: $pink !default;
+$color-secondary: $purple !default;
+
+// Typography
+$font-size: $baseline*1.5;
+$font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-color: $darkgray;

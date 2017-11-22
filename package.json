@@ -1,29 +1,18 @@
 {
-  "name": "focus-css",
+  "name": "snapi",
   "version": "1.0.0",
-  "description": "SCSS utility lib",
+  "description": "ui lib",
   "main": "index.js",
   "scripts": {
-    "build": "node-sass ./src/lib.scss index.css --output-style compressed",
-    "postinstall": "npm run build",
-    "clean": "rm -rf dist"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hetenho/focus.git"
+    "build": "node-sass src -o dist",
+    "dev": "node-sass -w -r src -o dist"
   },
   "keywords": [
-    "sass",
-    "scss",
-    "css"
+    "css component lib"
   ],
   "author": "hetenho",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/hetenho/focus/issues"
-  },
-  "homepage": "https://github.com/hetenho/focus#readme",
   "devDependencies": {
-    "node-sass": "^4.5.2"
+    "node-sass": "^4.7.2"
   }
 }

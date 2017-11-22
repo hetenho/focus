@@ -1,5 +1,6 @@
-# Focus
-A CSS utility lib to build on
+# CSS UI lib
 
-#### Usage
-npm run build
+## Development
+- ```npm install``` to get started
+- ```npm run dev``` to develop in watch mode
+- ```npm run build``` to build
